@@ -18,3 +18,8 @@ In this project, I went through the whole ASIC design flow:
 
 (After creating the IP Core I connectted it with the pad frame.)
 
+# CHIP View
+![Chip](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/Chip.jpg)
+![Simulation](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/ProjectModelsim_post_DC.png)
+![Encounter Layout](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/ProjectEncounter.png)
+![Magic Layout](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/flatMagic.png)
