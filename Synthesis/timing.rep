@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : UART
+Version: N-2017.09-SP2
+Date   : Fri Apr  5 12:04:22 2019
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: reset (input port clocked by clka)
+  Endpoint: rx/next_rstate_reg[1]
+            (falling edge-triggered flip-flop clocked by clka)
+  Path Group: clka
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clka (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     1.00       1.00 r
+  reset (in)                               0.15       1.15 r
+  rx/U147/Y (OR2X1)                        0.37       1.52 r
+  rx/U142/Y (NOR2X1)                       0.17       1.69 f
+  rx/next_rstate_reg[1]/D (DFFNEGX1)       0.00       1.69 f
+  data arrival time                                   1.69
+
+  clock clka (fall edge)                  10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  rx/next_rstate_reg[1]/CLK (DFFNEGX1)     0.00      10.00 f
+  library setup time                      -0.37       9.63
+  data required time                                  9.63
+  -----------------------------------------------------------
+  data required time                                  9.63
+  data arrival time                                  -1.69
+  -----------------------------------------------------------
+  slack (MET)                                         7.94
+
+
+1

@@ -1,0 +1,332 @@
+# //  ModelSim SE-64 10.7 Dec  6 2017Linux 3.10.0-957.1.3.el7.x86_64
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -debugDB -voptargs=""+acc"" -voptargs="+acc" UART_tb 
+# Start time: 12:09:35 on Apr 05,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.UART_tb(fast)
+# Loading work.UART(fast)
+# Loading work.NOR2X1(fast)
+# Loading work.NAND3X1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.OAI21X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.AOI21X1(fast)
+# Loading work.NAND2X1(fast)
+# Loading work.OAI22X1(fast)
+# Loading work.AOI22X1(fast)
+# Loading work.INVX2(fast)
+# Loading work.AND2X2(fast)
+# Loading work.DFFNEGX1(fast)
+# Loading work.LATCH(fast)
+# Loading work.BUFX2(fast)
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_error_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_error_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/ttmpout_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_out_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_idle_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_idle_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_done_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_done_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/next_tstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_busy_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tx_busy_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\tx/tcount_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_error_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_error_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rtmpout_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_busy_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_busy_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_idle_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_idle_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rcount_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_out_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_done_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rx_done_reg  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/next_rstate_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(260): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(262): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\rx/rstate_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp1/d1/q_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[0]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[1]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[2]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[3]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[4]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[5]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[6]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(573): Setting negative specify check constraint (-90 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3448) osu05_stdcells.v(575): Setting negative specify check constraint (-190 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb/main/\dp2/d1/q_reg[7]  File: osu05_stdcells.v
+# ** Warning: (vsim-3316) No solution possible for some delayed timing check nets. 146 negative limits were zeroed. Use +ntc_warn for more info.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_tb File: UARTtb.v
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+add wave -r /*
+run -all
+# End time: 12:10:28 on Apr 05,2019, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 147

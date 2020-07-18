@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : UART
+Version: N-2017.09-SP2
+Date   : Fri Apr  5 12:04:22 2019
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /clear/apps/osu/soc/synopsys/lib/ami05/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   1.7747 mW   (77%)
+  Net Switching Power  = 526.7798 uW   (23%)
+                         ---------
+Total Dynamic Power    =   2.3015 mW  (100%)
+
+Cell Leakage Power     =  38.5034 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.4801        1.2367e-02            1.4830            0.4924  (  21.40%)
+sequential         0.9086        6.9897e-03           15.0519            0.9156  (  39.78%)
+combinational      0.3861            0.5074           21.9686            0.8935  (  38.82%)
+--------------------------------------------------------------------------------------------------
+Total              1.7747 mW         0.5268 mW        38.5034 nW         2.3016 mW
+1

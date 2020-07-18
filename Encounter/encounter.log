@@ -1,0 +1,927 @@
+Checking out Encounter license ...
+	vdi		CHECKED OUT:	"Virtuoso_Digital_Implem"
+Virtuoso_Digital_Implem 14.2 license checkout succeeded.
+	Maximum number of instance allowed (1 x 50000).
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+@(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+@(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.28-s006
+@(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+@(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+@(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+@(#)CDS: RCDB 11.5
+--- Starting "Encounter v14.28-s033_1" on Fri Apr  5 12:11:27 2019 (mem=94.3M) ---
+--- Running on borax.clear.rice.edu (x86_64 w/Linux 3.10.0-957.1.3.el7.x86_64) ---
+This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+Sourcing tcl/tk file "encounter.tcl" ...
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> set init_verilog UART.vh
+<CMD> set init_top_cell UART
+<CMD> set init_lef_file /clear/apps/osu/soc/cadence/lib/ami05/lib/osu05_stdcells.lef
+<CMD> set init_gnd_net gnd
+<CMD> set init_design_settop 0
+<CMD> set init_pwr_net vdd
+<CMD> init_design
+
+Loading LEF file /clear/apps/osu/soc/cadence/lib/ami05/lib/osu05_stdcells.lef ...
+**WARN: (ENCLF-108):	There is no overlap layer defined in any LEF file
+so you are unable to create rectilinear partition in a hierarchical flow.
+Set DBUPerIGU to M2 pitch 2400.
+
+viaInitial starts at Fri Apr  5 12:11:28 2019
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN1 GENERATE.
+Type 'man ENCPP-557' for more detail.
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN2 GENERATE.
+Type 'man ENCPP-557' for more detail.
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN3 GENERATE.
+Type 'man ENCPP-557' for more detail.
+viaInitial ends at Fri Apr  5 12:11:28 2019
+*** Begin netlist parsing (mem=320.6M) ***
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'UART.vh'
+
+*** Memory Usage v#1 (Current mem = 321.609M, initial mem = 94.324M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=321.6M) ***
+Set top cell to UART.
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.07min, fe_real=0.08min, fe_mem=321.6M) ***
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell UART ...
+*** Netlist is unique.
+** info: there are 41 modules.
+** info: there are 393 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 328.359M, initial mem = 94.324M) ***
+**WARN: (ENCFP-3961):	The techSite 'IO' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+Type 'man ENCFP-3961' for more detail.
+**WARN: (ENCFP-3961):	The techSite 'corner' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+Type 'man ENCFP-3961' for more detail.
+Horizontal Layer M1 offset = 1500 (derived)
+Vertical Layer M2 offset = 1200 (derived)
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Input Pin Transition Delay as 0.1 ps.
+
+**WARN: (ENCSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restore_design -mmmc_file <viewDef.tcl> to add the timing setup information.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCLF-108            1  There is no overlap layer defined in any...
+WARNING   ENCFP-3961           2  The techSite '%s' has no related cells i...
+WARNING   ENCSYT-7328          1  The design has been initialized in physi...
+WARNING   ENCPP-557            3  A single-layer VIARULE GENERATE for turn...
+*** Message Summary: 7 warning(s), 0 error(s)
+
+<CMD> saveDesign UART.enc
+Writing Netlist "UART.enc.dat.tmp/UART.v.gz" ...
+Saving AAE Data ...
+Saving configuration ...
+Saving preference file UART.enc.dat.tmp/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=424.6M) ***
+Writing DEF file 'UART.enc.dat.tmp/UART.def.gz', current time is Fri Apr  5 12:11:28 2019 ...
+unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+DEF file 'UART.enc.dat.tmp/UART.def.gz' is written, current time is Fri Apr  5 12:11:28 2019 ...
+Copying LEF file...
+Copying Non-ILM Constraints file(s) ...
+Modifying Mode File...
+Modifying Globals File...
+Modifying Power Constraints File...
+Generated self-contained design: /storage-home/l/lj13/demo/DEV422/Encounter
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -r 1.0 0.6 21 21 21 21
+Horizontal Layer M1 offset = 1500 (derived)
+Vertical Layer M2 offset = 1200 (derived)
+**WARN: (ENCFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> clearGlobalNets
+<CMD> globalNetConnect gnd -type pgpin -pin gnd -inst *
+<CMD> globalNetConnect vdd -type pgpin -pin vdd -inst *
+<CMD> set sprCreateIeRingNets {}
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingWidth 1.2
+<CMD> set sprCreateIeRingSpacing 1.2
+<CMD> set sprCreateIeRingOffset 1.2
+<CMD> set sprCreateIeRingThreshold 1.2
+<CMD> set sprCreateIeRingJogDistance 1.2
+<CMD> setAddRingMode -stacked_via_top_layer metal3
+<CMD> setAddRingMode -stacked_via_bottom_layer metal1
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -type core_rings -jog_distance 1.8 -threshold 1.8 -nets {gnd vdd} -follow core -layer {bottom metal1 top metal1 right metal2 left metal2} -width 6.0 -spacing 1.2 -offset 1.8
+
+The power planner created 8 wires.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 425.6M) ***
+<CMD> placeDesign
+**WARN: (ENCSP-9513):	Timing constraint file does not exist
+**WARN: (ENCSP-9514):	Non-TimingDriven placement will be performed.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting "NanoPlace(TM) placement v#1 (mem=426.6M)" ...
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=393 (0 fixed + 393 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=406 #term=1302 #term/net=3.21, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=62
+stdCell: 393 single + 0 double + 0 multi
+Total standard cell length = 4.6056 (mm), area = 0.1382 (mm^2)
+Average module density = 0.601.
+Density for the design = 0.601.
+       = stdcell_area 1919 sites (138168 um^2) / alloc_area 3195 sites (230040 um^2).
+Pin Density = 0.678.
+            = total # of pins 1302 / total Instance area 1919.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 1.394e-11 (0.00e+00 1.39e-11)
+              Est.  stn bbox = 1.451e-11 (0.00e+00 1.45e-11)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 436.6M
+Iteration  2: Total net bbox = 1.394e-11 (0.00e+00 1.39e-11)
+              Est.  stn bbox = 1.451e-11 (0.00e+00 1.45e-11)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 436.6M
+Iteration  3: Total net bbox = 5.863e+00 (2.34e+00 3.52e+00)
+              Est.  stn bbox = 6.457e+00 (2.56e+00 3.90e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 436.6M
+Iteration  4: Total net bbox = 2.071e+04 (8.04e+03 1.27e+04)
+              Est.  stn bbox = 2.267e+04 (8.72e+03 1.39e+04)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 437.6M
+Iteration  5: Total net bbox = 2.580e+04 (1.16e+04 1.42e+04)
+              Est.  stn bbox = 2.859e+04 (1.28e+04 1.58e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 437.6M
+Iteration  6: Total net bbox = 2.805e+04 (1.30e+04 1.50e+04)
+              Est.  stn bbox = 3.113e+04 (1.44e+04 1.67e+04)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 437.6M
+Iteration  7: Total net bbox = 3.182e+04 (1.45e+04 1.73e+04)
+              Est.  stn bbox = 3.493e+04 (1.59e+04 1.90e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 437.6M
+Iteration  8: Total net bbox = 3.821e+04 (1.60e+04 2.22e+04)
+              Est.  stn bbox = 4.193e+04 (1.77e+04 2.42e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 441.6M
+Iteration  9: Total net bbox = 3.821e+04 (1.60e+04 2.22e+04)
+              Est.  stn bbox = 4.193e+04 (1.77e+04 2.42e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 441.6M
+*** cost = 3.821e+04 (1.60e+04 2.22e+04) (cpu for global=0:00:00.8) real=0:00:01.0***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Core Placement runtime cpu: 0:00:00.8 real: 0:00:01.0
+**WARN: (ENCSP-9025):	No scan chain specified/traced.
+Type 'man ENCSP-9025' for more detail.
+*** Starting refinePlace (0:00:05.7 mem=441.6M) ***
+Total net length = 3.833e+04 (1.596e+04 2.236e+04) (ext = 1.157e+04)
+Move report: Detail placement moves 393 insts, mean move: 11.80 um, max move: 97.52 um
+	Max move on inst (rx/U35): (490.17, 62.75) --> (434.40, 21.00)
+	Runtime: CPU: 0:00:00.1 REAL: 0:00:01.0 MEM: 441.6MB
+Summary Report:
+Instances move: 393 (out of 393 movable)
+Mean displacement: 11.80 um
+Max displacement: 97.52 um (Instance: rx/U35) (490.172, 62.746) -> (434.4, 21)
+	Length: 2 sites, height: 1 rows, site name: core, cell type: INVX2
+Total net length = 3.727e+04 (1.471e+04 2.256e+04) (ext = 1.117e+04)
+Runtime: CPU: 0:00:00.1 REAL: 0:00:01.0 MEM: 441.6MB
+*** Finished refinePlace (0:00:05.8 mem=441.6M) ***
+Total net length = 3.721e+04 (1.467e+04 2.254e+04) (ext = 1.111e+04)
+*** End of Placement (cpu=0:00:01.0, real=0:00:02.0, mem=441.6M) ***
+default core: bins with density >  0.75 =    0 % ( 0 / 4 )
+Density distribution unevenness ratio = 1.014%
+Starting IO pin assignment...
+Completed IO pin assignment.
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+Starting congestion repair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+*** Starting trialRoute (mem=441.6M) ***
+
+There are 0 guide points passed to trialRoute for fixed pins.
+There are 0 guide points passed to trialRoute for pinGroup/netGroup/pinGuide pins.
+Options:  -noPinGuide
+
+
+Phase 1a-1d Overflow: 0.00% H + 6.14% V (0:00:00.0 442.6M)
+
+Phase 1e-1f Overflow: 0.00% H + 2.55% V (0:00:00.0 443.6M)
+
+Phase 1l Overflow: 0.00% H + 2.55% V (0:00:00.0 443.6M)
+
+
+Congestion distribution:
+
+Remain	cntH		cntV
+--------------------------------------
+ -1:	0	 0.00%	19	 2.55%
+--------------------------------------
+  0:	0	 0.00%	129	17.29%
+  1:	0	 0.00%	147	19.71%
+  2:	1	 0.13%	170	22.79%
+  3:	9	 1.20%	126	16.89%
+  4:	29	 3.88%	58	 7.77%
+  5:	709	94.79%	97	13.00%
+
+
+Total length: 4.254e+04um, number of vias: 2318
+M1(H) length: 0.000e+00um, number of vias: 1240
+M2(V) length: 2.545e+04um, number of vias: 1078
+M3(H) length: 1.709e+04um
+
+Peak Memory Usage was 443.6M 
+*** Finished trialRoute (cpu=0:00:00.0 mem=443.6M) ***
+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+describeCongestion: hCong = 0.00 vCong = 0.00
+Trial Route Overflow 0.000000(H) 2.546917(V).
+Start repairing congestion with level 1.
+Skipped repairing congestion.
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 439.7M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCSP-9513           1  Timing constraint file does not exist    
+WARNING   ENCSP-9514           1  Non-TimingDriven placement will be perfo...
+WARNING   ENCSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 3 warning(s), 0 error(s)
+
+<CMD> sroute -nets {vdd gnd}
+*** Begin SPECIAL ROUTE on Fri Apr  5 12:11:31 2019 ***
+SPECIAL ROUTE ran on directory: /storage-home/l/lj13/demo/DEV422/Encounter
+SPECIAL ROUTE ran on machine: borax.clear.rice.edu (Linux 3.10.0-957.1.3.el7.x86_64 Xeon 2.98Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "vdd gnd"
+routeSpecial set to true
+srouteConnectConverterPin set to false
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 1093.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 6 layers, 3 routing layers, 0 overlap layer
+Read in 34 macros, 15 used
+Read in 393 components
+  393 core components: 0 unplaced, 393 placed, 0 fixed
+Read in 62 physical pins
+  62 physical pins: 0 unplaced, 62 placed, 0 fixed
+Read in 62 nets
+Read in 2 special nets, 2 routed
+Read in 848 terminals
+2 nets selected.
+
+Begin power routing ...
+**WARN: (ENCSR-1254):	Cannot find any block pin of net vdd. Check netlist, or change option to include the pin.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net vdd. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+Type 'man ENCSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net vdd. Check net list, or change port class in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-1254):	Cannot find any block pin of net gnd. Check netlist, or change option to include the pin.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net gnd. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+Type 'man ENCSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net gnd. Check net list, or change port class in LEF file, or change option to include pin in given range.
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 32
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 16
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 1098.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 4 via definition ...
+ Updating DB with 62 io pins ...
+
+sroute post-processing starts at Fri Apr  5 12:11:31 2019
+The viaGen is rebuilding shadow vias for net gnd.
+sroute post-processing ends at Fri Apr  5 12:11:31 2019
+
+sroute post-processing starts at Fri Apr  5 12:11:31 2019
+The viaGen is rebuilding shadow vias for net vdd.
+sroute post-processing ends at Fri Apr  5 12:11:31 2019
+sroute: Total CPU time used = 0:0:0
+sroute: Total Real time used = 0:0:0
+sroute: Total Memory used = 3.00 megs
+sroute: Total Peak Memory used = 442.68 megs
+<CMD> saveDesign UART.enc
+Writing Netlist "UART.enc.dat.tmp/UART.v.gz" ...
+Saving AAE Data ...
+Saving configuration ...
+Saving preference file UART.enc.dat.tmp/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=442.7M) ***
+Writing DEF file 'UART.enc.dat.tmp/UART.def.gz', current time is Fri Apr  5 12:11:31 2019 ...
+unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+DEF file 'UART.enc.dat.tmp/UART.def.gz' is written, current time is Fri Apr  5 12:11:31 2019 ...
+Copying LEF file...
+Copying Non-ILM Constraints file(s) ...
+Modifying Mode File...
+Modifying Globals File...
+Modifying Power Constraints File...
+Generated self-contained design: /storage-home/l/lj13/demo/DEV422/Encounter
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> addFiller -cell FILL -prefix FILLER -markFixed
+**WARN: (ENCSP-9057):	Fillers being added in a FIXED mode to the whole design. Some subsequent
+operations, such as antenna fixing, may fail due to fillers being marked
+as 'FIXED'. If this was not intended, use deleteFiller command to undo.
+*INFO: Adding fillers to top-module.
+*INFO:   Added 1276 filler insts (cell FILL / prefix FILLER).
+*INFO: Total 1276 filler insts added - prefix FILLER (CPU: 0:00:00.0).
+For 1276 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 470.46 (MB), peak = 475.32 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+Begin checking placement ... (start mem=442.7M, init mem=442.7M)
+*info: Placed = 1669           (Fixed = 1276)
+*info: Unplaced = 0           
+Placement Density:100.00%(138168/138168)
+Finished checkPlace (cpu: total=0:00:00.0, vio checks=0:00:00.0; mem=442.7M)
+#**INFO: auto set of routeWithTimingDriven to true
+#**INFO: auto set of routeWithSiDriven to true
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=442.7M) ***
+
+globalDetailRoute
+
+#setNanoRouteMode -routeWithSiDriven true
+#setNanoRouteMode -routeWithTimingDriven true
+#Start globalDetailRoute on Fri Apr  5 12:11:31 2019
+#
+#Generating timing graph information, please wait...
+#406 total nets, 0 already routed, 0 will ignore in trialRoute
+#Dump tif for version 2.1
+**WARN: (ENCEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+**WARN: (ENCEXT-6197):	Capacitance table file not specified. This will result in lower parasitic accuracy using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the capacitance table file using 'generateCapTbl' command and specify it before extraction.
+**ERROR: (ENCDC-634):	Failed to build the timing graph since timing library files have not yet been loaded. To resolve this, check that timing library files have been correctly specified in the loaded design database.
+**WARN: (ENCESI-2013):	The power rail of instance rx/next_rstate_reg[2] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance rx/next_rstate_reg[1] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance rx/next_rstate_reg[0] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/next_tstate_reg[0] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/next_tstate_reg[2] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/next_tstate_reg[1] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCEXT-2882):	Unable to find resistance for via 'M2_M1' in capacitance table or LEF files. Check the capacitance table and LEF files. Assigning default value of 4.0 ohms.
+**WARN: (ENCEXT-2882):	Unable to find resistance for via 'M3_M2' in capacitance table or LEF files. Check the capacitance table and LEF files. Assigning default value of 4.0 ohms.
+**WARN: (ENCESI-2013):	The power rail of instance U19 term A has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/tx_out_reg[4] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/ttmpout_reg[3] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/tx_out_reg[3] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/ttmpout_reg[2] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/tx_error_reg term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/tx_out_reg[0] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/tx_out_reg[2] term CLK has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance dp2/d1/U12 term A has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance rx/U147 term B has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/U139 term B has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/U92 term C has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance U5 term A has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (ENCESI-2013):	The power rail of instance tx/U69 term B has zero voltage, resetting the power rail to default vdd. Check the power specification of this instance.
+**WARN: (EMS-63):	Message <ENCESI-2013> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+AAE_MTTC: End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+AAE_THRD: End delay calculation. (MEM=603.645 CPU=0:00:00.0 REAL=0:00:00.0)
+#Write timing file took: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 504.02 (MB), peak = 512.01 (MB)
+#Done generating timing graph information.
+#Start reading timing information from file .timing_file_87252.tif.gz ...
+#WARNING (NRDB-194) 
+#No setup time constraints read in
+#Read in timing information for 62 ports, 393 instances from timing file .timing_file_87252.tif.gz.
+#NanoRoute Version v14.28-s005 NR160313-1959/14_28-UB
+#Bottom routing layer is M1, bottom routing layer for shielding is M1, bottom shield layer is M1
+#Start routing data preparation.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.900.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.900.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.900.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.900.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.900.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 1.500.
+#WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.900.
+#WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 1.500.
+# metal1       H   Track-Pitch = 3.000    Line-2-Via Pitch = 1.950
+# metal2       V   Track-Pitch = 2.400    Line-2-Via Pitch = 1.950
+# metal3       H   Track-Pitch = 3.000    Line-2-Via Pitch = 2.550
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=20 tracks, using layer metal2's pitch = 2.400.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.19 (MB), peak = 541.19 (MB)
+#Merging special wires...
+#Using S.M.A.R.T. routing technology.
+#Number of eco nets is 0
+#
+#Start data preparation...
+#
+#Data preparation is done on Fri Apr  5 12:11:32 2019
+#
+#Analyzing routing resource...
+#Routing resource analysis is done on Fri Apr  5 12:11:32 2019
+#
+#  Resource Analysis:
+#
+#               Routing  #Avail      #Track     #Total     %Gcell
+#  Layer      Direction   Track     Blocked      Gcell    Blocked
+#  --------------------------------------------------------------
+#  Metal 1        H         164           0         120    69.17%
+#  Metal 2        V         231           0         120     0.00%
+#  Metal 3        H         164           0         120     0.00%
+#  --------------------------------------------------------------
+#  Total                    559       0.00%  360    23.06%
+#
+#
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.39 (MB), peak = 541.45 (MB)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.47 (MB), peak = 541.69 (MB)
+#
+#start global routing iteration 2...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.69 (MB), peak = 541.77 (MB)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.77 (MB), peak = 541.77 (MB)
+#
+#start global routing iteration 4...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.77 (MB), peak = 541.77 (MB)
+#
+#
+#Total number of trivial nets (e.g. < 2 pins) = 6 (skipped).
+#Total number of routable nets = 406.
+#Total number of nets in the design = 412.
+#
+#406 routable nets have only global wires.
+#
+#Routed nets constraints summary:
+#-----------------------------
+#        Rules   Unconstrained  
+#-----------------------------
+#      Default             406  
+#-----------------------------
+#        Total             406  
+#-----------------------------
+#
+#Routing constraints summary of the whole design:
+#-----------------------------
+#        Rules   Unconstrained  
+#-----------------------------
+#      Default             406  
+#-----------------------------
+#        Total             406  
+#-----------------------------
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon       OverCon       OverCon       OverCon          
+#                  #Gcell        #Gcell        #Gcell        #Gcell    %Gcell
+#     Layer         (1-2)         (3-4)         (5-6)         (7-8)   OverCon
+#  --------------------------------------------------------------------------
+#   Metal 1      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#   Metal 2     10(8.33%)      2(1.67%)      1(0.83%)      2(1.67%)   (12.5%)
+#   Metal 3      0(0.00%)      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+#  --------------------------------------------------------------------------
+#     Total     10(3.23%)      2(0.65%)      1(0.32%)      2(0.65%)   (4.84%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 8
+#
+#Complete Global Routing.
+#Total wire length = 43973 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 0 um.
+#Total wire length on LAYER metal2 = 24254 um.
+#Total wire length on LAYER metal3 = 19719 um.
+#Total number of vias = 1692
+#Up-Via Summary (total 1692):
+#           
+#-----------------------
+#  Metal 1         1154
+#  Metal 2          538
+#-----------------------
+#                  1692 
+#
+#Max overcon = 8 tracks.
+#Total overcon = 4.84%.
+#Worst layer Gcell overcon rate = 0.00%.
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.83 (MB), peak = 541.84 (MB)
+#
+#
+#Start data preparation for track assignment...
+#
+#Data preparation is done on Fri Apr  5 12:11:32 2019
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 541.86 (MB), peak = 541.86 (MB)
+#Start Track Assignment.
+#Done with 349 horizontal wires in 1 hboxes and 494 vertical wires in 1 hboxes.
+#Done with 113 horizontal wires in 1 hboxes and 151 vertical wires in 1 hboxes.
+#Complete Track Assignment.
+#Total wire length = 41329 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 77 um.
+#Total wire length on LAYER metal2 = 22703 um.
+#Total wire length on LAYER metal3 = 18549 um.
+#Total number of vias = 1692
+#Up-Via Summary (total 1692):
+#           
+#-----------------------
+#  Metal 1         1154
+#  Metal 2          538
+#-----------------------
+#                  1692 
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 510.99 (MB), peak = 541.88 (MB)
+#
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 4.80 (MB)
+#Total memory = 510.99 (MB)
+#Peak memory = 541.88 (MB)
+#Using S.M.A.R.T. routing technology.
+#routeSiEffort set to high
+#
+#Start Detail Routing..
+#start initial detail routing ...
+#    number of violations = 0
+#cpu time = 00:00:01, elapsed time = 00:00:01, memory = 575.72 (MB), peak = 575.72 (MB)
+#start 1st optimization iteration ...
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 575.72 (MB), peak = 575.72 (MB)
+#Complete Detail Routing.
+#Total wire length = 44094 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 4013 um.
+#Total wire length on LAYER metal2 = 25868 um.
+#Total wire length on LAYER metal3 = 14213 um.
+#Total number of vias = 2092
+#Up-Via Summary (total 2092):
+#           
+#-----------------------
+#  Metal 1         1202
+#  Metal 2          890
+#-----------------------
+#                  2092 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:01
+#Increased memory = 64.74 (MB)
+#Total memory = 575.73 (MB)
+#Peak memory = 575.73 (MB)
+#
+#Start Post Route wire spreading..
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Fri Apr  5 12:11:32 2019
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 575.75 (MB), peak = 575.75 (MB)
+#
+#Spread distance (# of tracks): min = 0.500000; max = 2.000000
+#
+#Start Post Route Wire Spread.
+#Done with 53 horizontal wires in 1 hboxes and 154 vertical wires in 1 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total wire length = 44957 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 4013 um.
+#Total wire length on LAYER metal2 = 26413 um.
+#Total wire length on LAYER metal3 = 14531 um.
+#Total number of vias = 2092
+#Up-Via Summary (total 2092):
+#           
+#-----------------------
+#  Metal 1         1202
+#  Metal 2          890
+#-----------------------
+#                  2092 
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 515.40 (MB), peak = 575.76 (MB)
+#
+#Post Route wire spread is done.
+#Total wire length = 44957 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 4013 um.
+#Total wire length on LAYER metal2 = 26413 um.
+#Total wire length on LAYER metal3 = 14531 um.
+#Total number of vias = 2092
+#Up-Via Summary (total 2092):
+#           
+#-----------------------
+#  Metal 1         1202
+#  Metal 2          890
+#-----------------------
+#                  2092 
+#
+#
+#Start DRC checking..
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 563.25 (MB), peak = 575.76 (MB)
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 563.25 (MB), peak = 575.76 (MB)
+#CELL_VIEW UART,init has no DRC violation.
+#Total number of DRC violations = 0
+#Using S.M.A.R.T. routing technology.
+#routeSiEffort set to high
+#
+#Start Detail Routing..
+#start 1st optimization iteration ...
+#    number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 563.26 (MB), peak = 575.76 (MB)
+#Complete Detail Routing.
+#Total wire length = 44957 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 4013 um.
+#Total wire length on LAYER metal2 = 26413 um.
+#Total wire length on LAYER metal3 = 14531 um.
+#Total number of vias = 2092
+#Up-Via Summary (total 2092):
+#           
+#-----------------------
+#  Metal 1         1202
+#  Metal 2          890
+#-----------------------
+#                  2092 
+#
+#Total number of DRC violations = 0
+#
+#start routing for process antenna violation fix ...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 563.26 (MB), peak = 575.76 (MB)
+#
+#Total wire length = 44957 um.
+#Total half perimeter of net bounding box = 38079 um.
+#Total wire length on LAYER metal1 = 4013 um.
+#Total wire length on LAYER metal2 = 26413 um.
+#Total wire length on LAYER metal3 = 14531 um.
+#Total number of vias = 2092
+#Up-Via Summary (total 2092):
+#           
+#-----------------------
+#  Metal 1         1202
+#  Metal 2          890
+#-----------------------
+#                  2092 
+#
+#Total number of DRC violations = 0
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:01
+#Increased memory = 52.27 (MB)
+#Total memory = 563.27 (MB)
+#Peak memory = 575.76 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:01
+#Increased memory = 92.85 (MB)
+#Total memory = 563.39 (MB)
+#Peak memory = 575.76 (MB)
+#Number of warnings = 9
+#Total number of warnings = 10
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Fri Apr  5 12:11:33 2019
+#
+#routeDesign: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 563.39 (MB), peak = 575.76 (MB)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCEXT-6197          1  Capacitance table file not specified. Th...
+WARNING   ENCEXT-2882          2  Unable to find resistance for via '%s' i...
+WARNING   ENCEXT-3530          1  The process node is not set. Use the com...
+ERROR     ENCDC-634            1  Failed to build the timing graph since t...
+WARNING   ENCESI-2013       1240  The power rail of instance %s term %s ha...
+*** Message Summary: 1244 warning(s), 1 error(s)
+
+<CMD> verifyGeometry
+ *** Starting Verify Geometry (MEM: 628.7) ***
+
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 9600
+VG: elapsed time: 0.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 0
+  Antenna     : 0
+  Short       : 0
+  Overlap     : 0
+End Summary
+
+  Verification Complete : 0 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:00:00.1  MEM: 14.2M)
+
+<CMD> verifyConnectivity -type all -noAntenna
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Fri Apr  5 12:11:33 2019
+
+Design Name: UART
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (555.0000, 492.0000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Fri Apr  5 12:11:33 2019
+Time Elapsed: 0:00:00.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.0  MEM: 0.000M)
+
+<CMD> setStreamOutMode -snapToMGrid true -supportPathType4 false
+<CMD> streamOut final.gds -mapFile /clear/apps/osu/soc/cadence/flow/ami05/gds2_encounter.map -libName DesignLib -units 100 -merge /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 -mode ALL
+Finding the highest version number among the merge files
+Merge file: /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 has version number: 3
+
+Parse map file...
+**WARN: (ENCOGDS-399):	 Only 1 layer(s) (metal1) of a VIA object is(are) specified in map file '/clear/apps/osu/soc/cadence/flow/ami05/gds2_encounter.map'. A VIA object needs 3 layers (poly cc metal1) being specified at the same time in the map file. Add VIA contruct(s) to the map file for the following layer(s): poly cc or remove VIA construct(s) from the map file for the following layer(s): metal1.
+Type 'man ENCOGDS-399' for more detail.
+**WARN: (ENCOGDS-399):	 Only 1 layer(s) (metal1) of a VIAFILL object is(are) specified in map file '/clear/apps/osu/soc/cadence/flow/ami05/gds2_encounter.map'. A VIAFILL object needs 3 layers (poly cc metal1) being specified at the same time in the map file. Add VIAFILL contruct(s) to the map file for the following layer(s): poly cc or remove VIAFILL construct(s) from the map file for the following layer(s): metal1.
+Type 'man ENCOGDS-399' for more detail.
+Writing GDSII file ...
+	****** db unit per micron = 1000 ******
+	****** output gds2 file unit per micron = 100 ******
+	****** unit scaling factor = 0.1 ******
+**WARN: (ENCOGDS-250):	Specified unit is smaller than the one in db. You may have rounding problems
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation
+Statistics for GDS generated (version 3)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    49                            metal1
+    50                               via
+    51                            metal2
+    61                              via2
+    62                            metal3
+    49                            metal1
+    51                            metal2
+    62                            metal3
+
+
+Stream Out Information Processed for GDS version 3:
+Units: 100 DBU
+
+Object                             Count
+----------------------------------------
+Instances                           1669
+
+Ports/Pins                            62
+    metal layer metal2                46
+    metal layer metal3                16
+
+Nets                                3383
+    metal layer metal1               606
+    metal layer metal2              2025
+    metal layer metal3               752
+
+    Via Instances                   2092
+
+Special Nets                          56
+    metal layer metal1                52
+    metal layer metal2                 4
+
+    Via Instances                     40
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Text                                  64
+    metal layer metal1                 2
+    metal layer metal2                46
+    metal layer metal3                16
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Merging with GDS libraries
+Scanning GDS file /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 to register cell name ......
+Merging GDS file /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 ......
+	****** Merge file: /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 has version number: 3.
+	****** Merge file: /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 0.1 ******
+**WARN: (ENCOGDS-215):	Merge file : /clear/apps/osu/soc/cadence/lib/source/gds2/osu05_stdcells.gds2 has larger units than output file units. You may have rounding problem.
+**WARN: (ENCOGDS-280):	Maximum units in merge file is 1000. Use -units 1000 to avoid rounding issue.
+######Streamout is finished!
+<CMD> saveNetlist final.v
+Writing Netlist "final.v" ...
+<CMD> saveDesign UART.enc
+Writing Netlist "UART.enc.dat.tmp/UART.v.gz" ...
+Saving AAE Data ...
+Saving configuration ...
+Saving preference file UART.enc.dat.tmp/enc.pref.tcl ...
+Saving floorplan ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+Saving placement ...
+Saving route ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=586.9M) ***
+Writing DEF file 'UART.enc.dat.tmp/UART.def.gz', current time is Fri Apr  5 12:11:33 2019 ...
+unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+DEF file 'UART.enc.dat.tmp/UART.def.gz' is written, current time is Fri Apr  5 12:11:33 2019 ...
+Copying LEF file...
+Copying Non-ILM Constraints file(s) ...
+Modifying Mode File...
+Modifying Globals File...
+Modifying Power Constraints File...
+Generated self-contained design: /storage-home/l/lj13/demo/DEV422/Encounter
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> win
+
+*** Memory Usage v#1 (Current mem = 595.316M, initial mem = 94.324M) ***
+*** Message Summary: 1265 warning(s), 1 error(s)
+
+--- Ending "Encounter" (totcpu=0:00:09.6, real=0:00:37.0, mem=595.3M) ---
