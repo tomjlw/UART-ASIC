@@ -12,7 +12,7 @@ In this project, I went through the whole ASIC design flow:
 * Translate layout in Magic (**./Magic**)
 * Layout verificate in Irsim (**./Irsim**)
 * Generate and Flatten CIF file for fabrication (**./CIF**)
-* Satisfy density rule with extra poly and metal (**./CIF**)
+* Satisfy density rule with extra poly and metal in Perl (**./CIF**)
 * CIF verificate in Irsim (**./Irsim**)
 * Present results (**./ProjectPic**)
 
