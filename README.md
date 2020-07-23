@@ -18,6 +18,11 @@ In this project, I went through the whole ASIC design flow:
 
 (After creating the IP Core I connectted it with the pad frame.)
 
+# Future Work
+1. Oversample at the receiver's end.
+2. Use FIFO instead of D-FF to buffer data.
+3. Add a baud-rate generator.
+
 # CHIP View
 ![Chip](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/Chip.jpg)
 ![Simulation](https://github.com/tomjlw/UART-ASIC/blob/master/ProjectPic/ProjectModelsim_post_DC.png)
