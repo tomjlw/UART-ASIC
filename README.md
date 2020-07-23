@@ -6,7 +6,7 @@ It is a 40-pin-pad-frame communication chip that integrated a transmitter and a 
 In this project, I went through the whole ASIC design flow:
 * Front-end coding in Verilog (**./Modelsim**)
 * Pre-simulation in Modelsim (**./Modelsim**)
-* Synthesis in TCL (**./Synthesisi**)
+* Synthesis in Design Compiler with TCL (**./Synthesisi**)
 * Post-simulation in Modelsim (**./Modelsim**)
 * Layout in Encounter (**./Encounter**)
 * Translate layout in Magic (**./Magic**)
